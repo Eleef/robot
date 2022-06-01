@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{include file="Common/head"/}
+
+<body>
+    {include file="Common/header"/}
+    <div class="swiper-container swiper-container-index">
+        <div class="swiper-wrapper">
+            <div class="pagebanner swiper-slide"
+                style="background: url(__index__/images/20190819114201.jpg) center center no-repeat;"></div>
+            <div class="pagebanner swiper-slide"
+                style="background: url(__index__/images/20190819114201.jpg) center center no-repeat;"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination" id="bannerpagination"></div>
+    </div>
+    <div class="contentWidth">
+        <div class="center tuijian_title">
+            <h1>新闻资讯</h1>
+            <p>打造最适合青少年的机器人教育</p>
+        </div>
+        <div class="newslistimg">
+            <ul>
+                {volist name="indiamge" id="indiamge"}
+                    <li class="am-u-xs-4">
+                        <a href="{:url('mobile/news/article',array('id'=>$indiamge['id']))}">
+                            <div class="pic">
+                                    <img src="__upload__/{$indiamge.image}" />
+                            </div>
+                            <div class="text">
+                                <p>{$indiamge.title| mb_substr=0,15,'utf-8'}</p>
+                            </div>
+                        </a>
+                    </li>
+                {/volist}
+            </ul>
+        </div>
+        <div class="newslist clearfix">
+            <table>
+                {volist name="industry" id="industry"}
+                <tr>
+                    <td>
+                        <!-- <a href="{:url('news/article',array('id'=>$industry['id']))}">{$industry.title}</a> -->
+                        <a href="{:url('mobile/news/article',array('id'=>$industry['id']))}">
+                            <h1>{$industry.title}</h1>
+                            {$industry.summary}
+                        </a>
+                        <p class="time">{$industry.time|date="Y-m-d",###}</p>
+                    </td>
+                    <!-- {$industry.title | mb_substr=0,20,'utf-8'} -->
+                </tr>
+                {/volist}
+            </table>
+        </div>
+    </div>
+    {include file="Common/footer"/}
+</body>
+
+</html>

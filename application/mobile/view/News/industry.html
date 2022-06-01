@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{include file="Common/head"/}
+
+<body>
+    {include file="Common/header"/}
+    <div class="swiper-container swiper-container-index">
+
+
+        <div class="swiper-wrapper">
+            <div class="pagebanner swiper-slide"
+                style="background: url(__index__/images/20190819114201.jpg) center center no-repeat;"></div>
+            <div class="pagebanner swiper-slide"
+                style="background: url(__index__/images/20190819114201.jpg) center center no-repeat;"></div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination" id="bannerpagination"></div>
+    </div>
+    <div class="contentWidth">
+        <div class="center tuijian_title">
+            <h1>行业资讯</h1>
+            <p>打造最适合青少年的机器人教育</p>
+        </div>
+        <div class="newslistimg">
+            <ul>
+                {volist name="indiamge" id="indiamge"}
+                    <li>
+                        <a href="{:url('mobile/news/indusarticle',array('id'=>$indiamge['id']))}">
+                            <div class="pic">
+                                    <img src="__upload__/{$indiamge.image}" />
+                            </div>
+                            <div class="text">
+                                <p>{$indiamge.title}</p>
+                            </div>
+                        </a>
+                    </li>
+                {/volist}
+            </ul>
+        </div>
+        <div class="newslist clearfix">
+            <table>
+                <tr class="newstitle">
+                    <th>话题</th>
+                    <th class="t_right">发布时间</th>
+                </tr>
+                {volist name="industry" id="industry"}
+                <tr>
+                    <td><a href="{:url('mobile/news/indusarticle',array('id'=>$industry['id']))}">{$industry.title  | mb_substr=0,20,'utf-8'}</a><em class="hot">顶</em></td>
+                    <td class="t_right">{$industry.time|date="Y-m-d",###}</td>
+                </tr>
+                {/volist}
+            </table>
+            {$page}
+        </div>
+    </div>
+    {include file="Common/footer"/}
+</body>
+
+</html>

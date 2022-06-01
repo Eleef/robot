@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+{include file="Common/head"/}
+<body data-type="generalComponents">
+  {include file="Common/header"/}
+  <div class="tpl-page-container tpl-page-header-fixed">
+      {include file="Common/left"/}
+    <div class="tpl-content-wrapper">
+      <ol class="am-breadcrumb">
+        <li><a href="#" class="am-icon-home">首页</a></li>
+        <li class="am-active">加盟推送</li>
+      </ol>
+      <div class="tpl-portlet-components">
+        <div class="portlet-title">
+          <div class="caption font-green bold">
+            <span class="am-icon-code"></span> 加盟推送
+          </div>
+        </div>
+
+        <div class="am-g">
+          <div class="am-u-sm-12">
+            <table class="am-table am-table-bd am-table-striped admin-content-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>手机</th>
+                  <th>姓名</th>
+                  <th>邮箱</th>
+                  <th>公司名称</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                  {volist name="from" id="from"}
+                <tr>
+                  <td>{$from.id}</td>
+                  <td>{$from.ab_phone}</td>
+                  <td><a href="#">{$from.ab_name}</a></td>
+                  <td><span>{$from.ab_email}</span></td>
+                  <td><span>{$from.ab_company}</span></td>
+                  <td><span>{$from.ab_content}</span></td>
+                </tr>
+                {/volist}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+	  <div class="tpl-portlet-components">
+        <div class="portlet-title">
+          <div class="caption font-green bold">
+            <span class="am-icon-code"></span> 加盟推送
+          </div>
+        </div>
+		
+		<div class="am-g">
+          <div class="am-u-sm-12">
+            <table class="am-table am-table-bd am-table-striped admin-content-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>手机</th>
+                  <th>姓名</th>
+                  <th>省</th>
+                  <th>市</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                  {volist name="city" id="city"}
+                <tr>
+                  <td>{$city.id}</td>
+                  <td>{$city.jo_phone}</td>
+                  <td><a href="#">{$city.jo_name}</a></td>
+                  <td><span>{$city.jo_pro}</span></td>
+                  <td><span>{$city.jo_city}</span></td>
+                </tr>
+                {/volist}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="__admin__/js/jquery.min.js"></script>
+  <script src="__admin__/js/amazeui.min.js"></script>
+  <script src="__admin__/js/app.js"></script>
+</body>
+
+</html>

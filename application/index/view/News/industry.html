@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{include file="Common/head"/}
+
+<body>
+    {include file="Common/header"/}
+    <div class="swiper-container swiper-container-index">
+        <div class="swiper-wrapper">
+            <div class="indexbanner minw swiper-slide"> <img src="__index__/images/20190819114158.jpg" alt=""></div>
+            <div class="indexbanner minw swiper-slide"> <img src="__index__/images/20190819114158.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination" id="bannerpagination"></div>
+    </div>
+    <div class="contentWidth">
+        <div class="center tuijian_title">
+            <h1>行业资讯</h1>
+            <p>打造最适合青少年的机器人教育</p>
+        </div>
+        <div class="newslistimg">
+            <ul>
+                {volist name="indiamge" id="indiamge"}
+                    <li>
+                        <a href="{:url('news/indusarticle',array('id'=>$indiamge['id']))}">
+                            <div class="pic">
+                                    <img src="__upload__/{$indiamge.image}" />
+                            </div>  </a>
+                            <div class="text">
+                                <p>{$indiamge.title}</p>
+                            </div>
+                      
+                    </li>
+                {/volist}
+            </ul>
+        </div>
+        <div class="newslist clearfix">
+            <table>
+                <tr class="newstitle">
+                    <th>话题</th>
+                    <th class="t_right">发布时间</th>
+                </tr>
+                {volist name="industry" id="industry"}
+                <tr>
+                    <td class="newslisttb">
+                        
+                        <div class="tbdiv">
+                            <div class="lf tbpic">
+                                <img src="__upload__/{$industry.image}"/>
+                            </div>
+                            <a href="{:url('news/article',array('id'=>$industry['id']))}">
+                                <p class="title"> {$industry.title | mb_substr=0,60,'utf-8'}</p>
+                                <p class="summary"> {$industry.summary}</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td class="center">少儿编程</td>
+                    <td class="t_right">{$industry.time|date="Y-m-d",###}</td>
+                </tr>
+                {/volist}
+            </table>
+            {$page}
+        </div>
+    </div>
+  {include file="Common/layer"/}
+    {include file="Common/layerbox"/}
+    {include file="Common/footer"/}
+    <script src="__index__/js/title.js" defer></script>
+</body>
+
+</html>

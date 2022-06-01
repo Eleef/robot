@@ -1,0 +1,152 @@
+﻿<!-- footer -->
+<div class="footer minw white">
+    <div class="address">
+        <div class="contentWidth">
+            <div class="address_con">
+                <!-- 地址 -->
+                <dl class="clearfix">
+                    <dd>
+                        <p>广州总部 (海客总部)：</p>
+                        <p>广州市天河区体育西路111号建和中心18楼BCD座</p>
+                    </dd>
+                    <dd>
+                        <p>广州珠江新城校区：</p>
+                        <p>广州市天河区兴盛路10号334-335</p>
+                    </dd>
+                    <dd>
+                        <p>广州东川路校区：</p>
+                        <p>广州市越秀区烈士陵园地铁站海印休闲名店城4楼</p>
+                    </dd>
+                    <dd>
+                        <p>广州新港西路训练基地：</p>
+                        <p>广州市海珠区新港西路179号</p>
+                    </dd>
+                    <dd>
+                        <p>长沙(湖南总部)：</p>
+                        <p>长沙市开福区金泰路与网船班路交汇处世纪云中心三楼</p>
+                    </dd>
+                    <dd>
+                        <p>佛山总部：</p>
+                        <p>佛山市禅城区文华中路湖明街20号文华广场4楼</p>
+                    </dd>
+
+                    <dd>
+                        <p>佛山湖景湾校区：</p>
+                        <p>佛山市禅城区湖景路亚艺二街恒福湖景湾90号铺</p>
+                    </dd>
+                    <dd>
+                        <p>佛山湖景湾竞赛基地：</p>
+                        <p>佛山市禅城区湖景路亚艺二街恒福湖景湾74-75号铺</p>
+                    </dd>
+                    <dd>
+                        <p>增城(增城总部)：</p>
+                        <p>广州市增城区新塘镇永宁街碧桂园凤凰城凤荔苑二街18号</p>
+                    </dd>
+                </dl>
+
+                <!-- 公众号，二维码 -->
+                <div class="public_number">
+                    <div class="erweima">
+                        <img src="__index__/images/erweima.png" />
+                    </div>
+                    <div class="erweima_txt">
+                        <div class="erweima_txt_tit">
+                            <p>微信扫二维码</p>
+                            <p>关注官方公众</p>
+                        </div>
+                        <div class="phone">
+                            <p class="txt">预约免费试听课</p>
+                            <p class="f16 weight number">400-8003117</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copy -->
+    <div class="copy">
+        <div class="contentWidth center">
+            沪ICP100114515号-6
+        </div>
+    </div>
+</div>
+
+<script src="__admin__/js/jquery.min.js"></script>
+<script src="__index__/js/swiper.min.js"></script>
+<script src="__layer__/layer.js"></script>
+<script src="__index__/js/public.js"></script>
+
+<script>
+    $("#submit2").click(function(){
+        var c_phone = $('.input input[name="c_phone"]').val();
+        var c_name = $('.input input[name="c_name"]').val();
+        var c_age = $('.input input[name="c_age"]').val();
+        $.ajax({
+            type: "POST",
+            data: { c_age: c_age, c_name: c_name, c_phone: c_phone },
+            url: "{:url('index/index')}",
+            success: function (data) {
+                layer.msg("<span>" + data.msg + "</span>");
+            }
+        });
+        return false; 
+       })
+	   
+	      $(".lbut").click(function(){
+        var c_phone = $('.layerbox input[name="c_phone"]').val();
+        var c_name = $('.layerbox input[name="c_name"]').val();
+        var c_age = $('.layerbox input[name="c_age"]').val();
+        $.ajax({
+            type: "POST",
+            data: { c_age: c_age, c_name: c_name, c_phone: c_phone },
+            url: "{:url('index/index')}",
+            success: function (data) {
+                layer.msg("<span>" + data.msg + "</span>");
+                if(data.msg == '感谢您的支持！'){
+                    $(".layerbox").hide();
+                }
+            }
+        });
+        return false; 
+       })
+
+       $(".close").click(function(){
+    $(".layerbox").hide();
+})
+$(".butlayer").click(function(){
+    $(".layerbox").show();
+})
+    // -------------------导航部分-------------------
+    $.ajax({
+        url: "__index__/js/navjson.json",
+        type: "POST",
+        data: "",
+        async: false,
+        dataType: "json",
+        success: function (data) {
+            var data = data.nav;
+            var html = "";
+            $.each(data, function (i) {
+                if (typeof data[i].children != "undefined" && data[i].children.length > 0) {
+                    html += '<li><a href="' + data[i].href + '">' + data[i].title + '</a><ul class="secondlevel center">';
+                    $.each(data[i].children, function (j) {
+                        html += '<li><a href="' + data[i].children[j].href + '">' + data[i].children[j].title + '</a></li>';
+                    });
+                    html += '</ul></li>';
+                }
+                else {
+                    html += '<li><a href="' + data[i].href + '">' + data[i].title + '</a></li>';
+                }
+            });
+            $('#navtextul').html(html);
+            // 导航经过
+            $(".navtextul > li").hover(function () {
+                $(this).children(".secondlevel").show();
+            }, function () {
+                $(this).children(".secondlevel").hide();
+            })
+        }
+    });
+
+</script>
