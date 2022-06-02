@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>后台管理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/static/admin/i/favicon.png">
-    <link rel="stylesheet" href="/static/admin/css/amazeui.min.css" />
-    <link rel="stylesheet" href="/static/admin/css/admin.css">
-    <link rel="stylesheet" href="/static/admin/css/app.css">
+    <link rel="icon" type="image/png" href="/robot/public/static/admin/i/favicon.png">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/robot/public/static/admin/css/admin.css">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/app.css">
   </head>
 
 <body data-type="generalComponents">
   <header class="am-topbar am-topbar-inverse admin-header">
   <div class="am-topbar-brand">
     <a href="/" class="tpl-logo">
-      <img src="/static/index/images/logo.png" alt="">
+      <img src="/robot/public/static/index/images/logo.png" alt="">
     </a>
   </div>
   <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
@@ -113,7 +113,7 @@
                   <label for="user-weibo" class="am-u-sm-3 am-form-label">图片预览</label>
                   <div class="am-u-sm-9 yulan">
                     <div class="pic">
-                      <img src="/static/index/images/zw.png" class="img" />
+                      <img src="/robot/public/static/index/images/zw.png" class="img" />
                     </div>
                   </div>
                 </div>
@@ -150,13 +150,13 @@
   </div>
 
 
-  <script src="/static/admin/js/jquery.min.js"></script>
-  <script src="/static/admin/js/amazeui.min.js"></script>
-  <script src="/static/admin/js/app.js"></script>
+  <script src="/robot/public/static/admin/js/jquery.min.js"></script>
+  <script src="/robot/public/static/admin/js/amazeui.min.js"></script>
+  <script src="/robot/public/static/admin/js/app.js"></script>
 
-  <script type="text/javascript" src="/static/ueditor/ueditor.config.js"></script>
-  <script type="text/javascript" src="/static/ueditor/ueditor.all.min.js"></script>
-  <script type="text/javascript" src="/static/ueditor/lang/zh-cn/zh-cn.js"></script>
+  <script type="text/javascript" src="/robot/public/static/ueditor/ueditor.config.js"></script>
+  <script type="text/javascript" src="/robot/public/static/ueditor/ueditor.all.min.js"></script>
+  <script type="text/javascript" src="/robot/public/static/ueditor/lang/zh-cn/zh-cn.js"></script>
 
   <script type="text/javascript">
     // 实例化

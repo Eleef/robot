@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>后台管理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/static/admin/i/favicon.png">
-    <link rel="stylesheet" href="/static/admin/css/amazeui.min.css" />
-    <link rel="stylesheet" href="/static/admin/css/admin.css">
-    <link rel="stylesheet" href="/static/admin/css/app.css">
+    <link rel="icon" type="image/png" href="/robot/public/static/admin/i/favicon.png">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/robot/public/static/admin/css/admin.css">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/app.css">
   </head>
 <body data-type="login">
 	<div class="am-g myapp-login">
@@ -34,8 +34,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="/static/admin/js/jquery.min.js"></script>
-	<script src="/static/admin/js/amazeui.min.js"></script>
-	<script src="/static/admin/js/app.js"></script>
+	<script src="/robot/public/static/admin/js/jquery.min.js"></script>
+	<script src="/robot/public/static/admin/js/amazeui.min.js"></script>
+	<script src="/robot/public/static/admin/js/app.js"></script>
 </body>
 </html>

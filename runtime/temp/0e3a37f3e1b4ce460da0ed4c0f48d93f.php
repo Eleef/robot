@@ -1,47 +1,44 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:77:"C:\phpStudy\WWW\robot\public/../application/index\view\competition\index.html";i:1572830409;s:61:"C:\phpStudy\WWW\robot\application\index\view\Common\head.html";i:1572830715;s:63:"C:\phpStudy\WWW\robot\application\index\view\Common\header.html";i:1572830715;s:62:"C:\phpStudy\WWW\robot\application\index\view\Common\layer.html";i:1564031755;s:65:"C:\phpStudy\WWW\robot\application\index\view\Common\layerbox.html";i:1565250812;s:63:"C:\phpStudy\WWW\robot\application\index\view\Common\footer.html";i:1642214281;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:77:"C:\phpStudy\WWW\robot\public/../application/index\view\competition\index.html";i:1654148797;s:61:"C:\phpStudy\WWW\robot\application\index\view\Common\head.html";i:1654081211;s:63:"C:\phpStudy\WWW\robot\application\index\view\Common\header.html";i:1572830715;s:62:"C:\phpStudy\WWW\robot\application\index\view\Common\layer.html";i:1564031755;s:65:"C:\phpStudy\WWW\robot\application\index\view\Common\layerbox.html";i:1565250812;s:63:"C:\phpStudy\WWW\robot\application\index\view\Common\footer.html";i:1654081168;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
-﻿
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="referrer" content="never">
-	<meta http-equiv="Cache-Control" content="no-transform " />
-	 <meta name="apple-mobile-web-app-capable" content="yes">
+﻿<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="referrer" content="never">
+  <meta http-equiv="Cache-Control" content="no-transform " />
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="white">
-   <meta name="keywords" content="少儿编程,儿童编程,少儿编程培训,孩子编程,幼儿编程,scratch,在线少儿编程,青少年编程,海客,教育,零基础 少儿编程">
-    <meta name="description" content="少儿编程网分享各类少儿编程。专注于6-17岁少儿编程教育领域发展。">
-	
-    <title>海客智能机器人</title>
-    <link rel="icon" type="image/png" href="/static/admin/i/favicon.png">
-    <link rel="stylesheet" href="/static/admin/css/amazeui.min.css" />
-    <link rel="stylesheet" href="/static/index/css/swiper.css">
-    <link rel="stylesheet" href="/static/index/css/reset.css">
-    <link rel="stylesheet" href="/static/index/css/style.css">
-<script>
-var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?73556cefc0b8227237fbc6f82c60e469"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
-<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=13868600"></script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?73556cefc0b8227237fbc6f82c60e469";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+  <meta name="keywords" content="少儿编程,儿童编程,少儿编程培训,孩子编程,幼儿编程,scratch,在线少儿编程,青少年编程,海客,教育,零基础 少儿编程">
+  <meta name="description" content="少儿编程网分享各类少儿编程。专注于6-17岁少儿编程教育领域发展。">
+
+  <title>海客智能机器人</title>
+  <link rel="icon" type="image/png" href="/robot/public/static/admin/i/favicon.png">
+  <link rel="stylesheet" href="/robot/public/static/admin/css/amazeui.min.css" />
+  <link rel="stylesheet" href="/robot/public/static/index/css/swiper.css">
+  <link rel="stylesheet" href="/robot/public/static/index/css/reset.css">
+  <link rel="stylesheet" href="/robot/public/static/index/css/style.css">
+  <script>
+    var _hmt = _hmt || []; (function () { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?73556cefc0b8227237fbc6f82c60e469"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script>
+
+  <script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=13868600"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?73556cefc0b8227237fbc6f82c60e469";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
-
-
-
 
 <body>
     ﻿<!-- top -->
 <div class="contentWidth navbar">
     <div>
         <a href="/">
-            <img src="/static/index/images/logo.png" />
+            <img src="/robot/public/static/index/images/logo.png" />
         </a>
     </div>
     <div class="nav_right">
@@ -59,8 +56,9 @@ var _hmt = _hmt || [];
     <!-- banner -->
     <div class="swiper-container swiper-container-index">
         <div class="swiper-wrapper">
-            <div class="indexbanner minw swiper-slide"><img src="/static/index/images/20190819110900.jpg"/></div>
-            <div class="indexbanner minw swiper-slide"><img src="/static/index/images/20190819110900.jpg"/></div>
+            <div class="indexbanner minw swiper-slide"><img src="/robot/public/static/index/images/banner_competiton1.jpg"/></div>
+            <div class="indexbanner minw swiper-slide"><img src="/robot/public/static/index/images/banner_competiton2.jpg"/></div>
+            <div class="indexbanner minw swiper-slide"><img src="/robot/public/static/index/images/banner_competiton3.jpg"/></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination" id="bannerpagination"></div>
@@ -72,7 +70,7 @@ var _hmt = _hmt || [];
                             <li><a href="/competition/wer">WER</a></li>
                             <li><a href="/competition/zhjn">综合技能</a></li>
                             <li><a href="/competition/cys">机器人创意</a></li>
-                            <li><a href="/competition/makex">MakeX</a></li>
+                            <!-- <li><a href="/competition/makex">MakeX</a></li> -->
                         </ul>
             </div>
         <div class="center tuijian_title">
@@ -84,7 +82,7 @@ var _hmt = _hmt || [];
                 <li>
                     <a href="/competition/vex">
                         <div class="leftmodel">
-                            <div><img src="/static/index/images/page4_03.png" alt=""></div>
+                            <div><img src="/robot/public/static/index/images/page4_03.png" alt=""></div>
                             <div class="text">
                                 <h1>VEX工程挑战赛</h1>
                                 <div>
@@ -93,17 +91,17 @@ var _hmt = _hmt || [];
                             </div>
                         </div>
                         <div class="rightimg">
-                            <img src="/static/index/images/page4_06.png" alt="">
+                            <img src="/robot/public/static/index/images/page4_06.png" alt="">
                         </div>
                         <div class="icon">
-                            <img src="/static/index/images/page4_22.png" alt="">
+                            <img src="/robot/public/static/index/images/page4_22.png" alt="">
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="/competition/wer">
                         <div class="leftmodel">
-                            <div><img src="/static/index/images/page4_10.png" alt=""></div>
+                            <div><img src="/robot/public/static/index/images/page4_10.png" alt=""></div>
                             <div class="text">
                                 <h1>WER世界教育机器人大赛</h1>
                                 <div>
@@ -112,10 +110,10 @@ var _hmt = _hmt || [];
                             </div>
                         </div>
                         <div class="rightimg">
-                            <img src="/static/index/images/page4_11.png" alt="">
+                            <img src="/robot/public/static/index/images/page4_11.png" alt="">
                         </div>
                         <div class="icon">
-                            <img src="/static/index/images/page4_22.png" alt="">
+                            <img src="/robot/public/static/index/images/page4_22.png" alt="">
                         </div>
                     </a>
                 </li>
@@ -123,7 +121,7 @@ var _hmt = _hmt || [];
       <li>
             <a href="/competition/zhjn">
                 <div class="leftmodel">
-                    <div><img src="/static/index/images/page4_14.png" alt=""></div>
+                    <div><img src="/robot/public/static/index/images/page4_14.png" alt=""></div>
                     <div class="text">
                         <h1>机器人综合技能</h1>
                         <div>
@@ -135,14 +133,14 @@ var _hmt = _hmt || [];
                    
                 </div>
                 <div class="icon">
-                    <img src="/static/index/images/page4_22.png" alt="">
+                    <img src="/robot/public/static/index/images/page4_22.png" alt="">
                 </div>
             </a>
         </li>
         <li>
                 <a href="/competition/cys">
                     <div class="leftmodel">
-                        <div><img src="/static/index/images/page4_16.png" alt=""></div>
+                        <div><img src="/robot/public/static/index/images/page4_16.png" alt=""></div>
                         <div class="text">
                             <h1>机器人创意项目</h1>
                             <div> 
@@ -153,14 +151,14 @@ var _hmt = _hmt || [];
                     <div class="rightimg">
                     </div>
                     <div class="icon">
-                        <img src="/static/index/images/page4_22.png" alt="">
+                        <img src="/robot/public/static/index/images/page4_22.png" alt="">
                     </div>
                 </a>
             </li>
                 <li>
                     <a href="/competition/makex">
                         <div class="leftmodel">
-                            <div><img src="/static/index/images/page4_20.png" alt=""></div>
+                            <div><img src="/robot/public/static/index/images/page4_20.png" alt=""></div>
                             <div class="text">
                                 <h1>MakeX</h1>
                                 <div>
@@ -170,10 +168,10 @@ var _hmt = _hmt || [];
                             </div>
                         </div>
                         <div class="rightimg">
-                            <img src="/static/index/images/page4_19.png" alt="">
+                            <img src="/robot/public/static/index/images/page4_19.png" alt="">
                         </div>
                         <div class="icon">
-                            <img src="/static/index/images/page4_22.png" alt="">
+                            <img src="/robot/public/static/index/images/page4_22.png" alt="">
                         </div>
                     </a>
                 </li>
@@ -185,7 +183,7 @@ var _hmt = _hmt || [];
     <form action="" method="post">
         <div class="contentWidth white layerfrom_con">
             <div>
-                <img src="/static/index/images/layerlogo.png" />
+                <img src="/robot/public/static/index/images/layerlogo.png" />
             </div>
             <div class="textright">
                 <p>免费领取</p>
@@ -193,15 +191,15 @@ var _hmt = _hmt || [];
             </div>
             <div class="input">
                 <div class="text_input phone">
-                    <img src="/static/index/images/ban-icon-phone.png" />
+                    <img src="/robot/public/static/index/images/ban-icon-phone.png" />
                     <input type="text" class="text" placeholder="请输入11位手机号" name="c_phone"/>
                 </div>
                 <div class="text_input">
-                    <img src="/static/index/images/ban-icon-user.png" />
+                    <img src="/robot/public/static/index/images/ban-icon-user.png" />
                     <input type="text" class="text" placeholder="孩子姓名" name="c_name" />
                 </div>
                 <div class="text_input">
-                    <img src="/static/index/images/ban-icon-user.png" />
+                    <img src="/robot/public/static/index/images/ban-icon-user.png" />
                     <input type="text" class="text" placeholder="孩子年龄" name="c_age" />
                 </div>
             </div>
@@ -242,65 +240,97 @@ var _hmt = _hmt || [];
             <div class="address_con">
                 <!-- 地址 -->
                 <dl class="clearfix">
-                    <dd>
-                        <p>广州总部 (海客总部)：</p>
-                        <p>广州市天河区体育西路111号建和中心18楼BCD座</p>
-                    </dd>
-                    <dd>
-                        <p>广州珠江新城校区：</p>
-                        <p>广州市天河区兴盛路10号334-335</p>
-                    </dd>
-					<dd>
-                        <p>南沙校区：</p>
-                        <p>广东省广州市南沙区双山大道南自贸区跨境购物免税店</p>
-                    </dd>
-					<dd>
-                        <p>珠海校区：</p>
-                        <p>广东省珠海市香洲区香榭路33好正方优和汇红荔5层</p>
-                    </dd>
-                    <dd>
-                        <p>长沙(湖南总部)：</p>
-                        <p>长沙市开福区金泰路与网船班路交汇处世纪云中心三楼</p>
-                    </dd>
-                    <dd>
-                        <p>佛山总部：</p>
-                        <p>佛山市禅城区文华中路湖明街20号文华广场4楼</p>
-                    </dd>
-                    <dd>
-                        <p>增城(增城总部)：</p>
-                        <p>广州市增城区新塘镇永宁街碧桂园凤凰城凤荔苑二街18号</p>
-                    </dd>
-					<dd>
-                        <p>增城第二校区：</p>
-                        <p>广东省广州市增城区新塘镇东进东路8号盛世名门会所一楼花园教育</p>
-                    </dd>
-
-					<dd>
-                        <p>深圳校区：</p>
-                        <p>深圳市龙岗区平安里二路3-114</p>
-                    </dd>
-					<dd>
-                        <p>惠州校区：</p>
-                        <p>惠州市惠城区旭日路2号文岭西堤花园邦德教育</p>
-                    </dd>
-					<dd>
-                        <p>中山校区：</p>
-                        <p>中山市东区中山六路1号天奕国际广场2层1卡商铺</p>
-                    </dd>
-					<dd>
-                        <p>荆州校区：</p>
-                        <p>荆州市沙市区北京路与红门路交汇处万家福超市二层</p>
-                    </dd>					
-					<dd>
-                        <p>衡阳校区：</p>
-                        <p>湖南省衡阳市祁东县楚杰路79号</p>
-                    </dd>
+                <dd>
+                    <p>海客总部：</p>
+                    <p>广州市天河区棠东东路3号远洋创意园205-206单元</p>
+                </dd>
+                <dd>
+                    <p>广州（体育西校区）：</p>
+                    <p>广东省广州市天河区体育西路107号盛雅商务中心A座二楼H单元</p>
+                </dd>
+                <dd>
+                    <p>广州（珠江新城校区）：</p>
+                    <p>广州市天河区兴盛路10号隽峰苑一期3楼334-335</p>
+                </dd>
+                <dd>
+                    <p>长沙（湖南总部）：</p>
+                    <p>长沙市开福区金泰路与网船班路交汇处世纪云中心三楼</p>
+                </dd>
+                <dd>
+                    <p>番禺（番禺万翔教育校区）：</p>
+                    <p>广州市番禺区沙湾镇福涌村福北路559号</p>
+                </dd>
+                <dd>
+                    <p>广州（南沙海阅万科校区）：</p>
+                    <p>广州市南沙区进港大道碧桂园天玺湾1号门旁</p>
+                </dd>
+                <dd>
+                    <p>增城（增城凤凰城旗舰校区）：</p>
+                    <p>广东省广州市增城区凤凰城凤荔苑商业中心一楼海客智能机器人</p>
+                </dd>
+                <dd>
+                    <p>增城（增城敏锐校区）：</p>
+                    <p>广东省广州市增城区新塘镇新都盛世名门会所1楼</p>
+                </dd>
+                <dd>
+                    <p>珠海（香洲凤凰校区）：</p>
+                    <p>广东省珠海市香洲区香榭路33好正方优和汇红荔5层</p>
+                </dd>
+                <dd>
+                    <p>东莞（东莞南城校区）：</p>
+                    <p>东莞市南城街道西平景荣路3号财津8号广场5楼501变更东莞市南城西平财津科技产业园B座309</p>
+                </dd>
+                <dd>
+                    <p>中山（中山校区）：</p>
+                    <p>中山市小榄镇天奕星河cococity漫街二层1卡1号楼梯</p>
+                </dd>
+                <dd>
+                    <p>深圳（龙岗校区）：</p>
+                    <p>深圳市龙岗区平安里二路3-114</p>
+                </dd>
+                <dd>
+                    <p>中山（火炬黄冈校区）：</p>
+                    <p>广东省中山市火炬开发区东镇大道4号</p>
+                </dd>
+                <dd>
+                    <p>茂名（电白优学教育校区）：</p>
+                    <p>茂名电白区岭门镇汉山路1号</p>
+                </dd>
+                <dd>
+                    <p>惠州（惠城邦德校区）：</p>
+                    <p>惠州市惠城区旭日路2号文岭西堤花园邦德教育</p>
+                </dd>
+                <dd>
+                    <p>佛山（禅城爱科教育校区）：</p>
+                    <p>佛山市禅城区湖景路亚艺二街恒福湖景湾90号海客机器人学习中心</p>
+                </dd>
+                <dd>
+                    <p>荆州（荆州校区）：</p>
+                    <p>荆州市沙市区北京路与红门路交汇处万家福超市二层</p>
+                </dd>
+                <dd>
+                    <p>永州（蓝山巴仑思校区）：</p>
+                    <p>湖南省永州市蓝山县南平路120号三楼</p>
+                </dd>
+                <dd>
+                    <p>广西（桂林圆梦兴安校区）：</p>
+                    <p>广西壮族自治区 桂林市兴安县兴安县兴安银杏广场</p>
+                </dd>
+                <dd>
+                    <p>湖州（长兴维多利校区）：</p>
+                    <p>浙江省 湖州市 长兴县 雉城街道人民广场艺术馆二楼</p>
+                </dd>
+                <dd>
+                    <p>衡阳（祁东校区）：</p>
+                    <p>湖南省衡阳市祁东县楚杰路79号</p>
+                </dd>
+                
                 </dl>
 
                 <!-- 公众号，二维码 -->
 					<div class="public_number">
                     <div class="erweima">
-                        <img src="/static/index/images/erweima.png" />
+                        <img src="/robot/public/static/index/images/erweima.png" />
                     </div>
                     <div class="erweima_txt">
                         <div class="erweima_txt_tit">
@@ -325,13 +355,13 @@ var _hmt = _hmt || [];
     </div>
 </div>
 
-<script src="/static/admin/js/jquery.min.js"></script>
-<script src="/static/index/js/swiper.min.js" defer></script>
-<script src="/static/layer/layer.js" defer></script>
-<script src="/static/index/js/ajax.js"></script>
-<script src="/static/index/js/public.js" defer></script>
+<script src="/robot/public/static/admin/js/jquery.min.js"></script>
+<script src="/robot/public/static/index/js/swiper.min.js" defer></script>
+<script src="/robot/public/static/layer/layer.js" defer></script>
+<script src="/robot/public/static/index/js/ajax.js"></script>
+<script src="/robot/public/static/index/js/public.js" defer></script>
 
-<script src="/static/admin/js/amazeui.min.js" defer></script>
+<script src="/robot/public/static/admin/js/amazeui.min.js" defer></script>
 
 <script>
 (function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/0551b9cd96157683e59dee0287e02be62/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();
@@ -392,7 +422,7 @@ $(".butlayer").click(function(){
 })
 // -------------------导航部分-------------------
 $.ajax({
-    url: "/static/index/js/navjson.json",
+    url: "/robot/public/static/index/js/navjson.json",
     type: "POST",
     data: "",
     async: false,
@@ -423,8 +453,8 @@ $.ajax({
     }
 });
 </script>
- <script src="/static/index/js/rem.js"></script>
-    <script src="/static/index/js/title.js" defer></script>
+<script src="/robot/public/static/index/js/rem.js"></script>
+    <script src="/robot/public/static/index/js/title.js" defer></script>
 </body>
 
 </html>

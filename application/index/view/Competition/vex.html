@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 {include file="Common/head"/}
-
+<script>
+    function play_v1(v){
+        v.muted=false;
+    }
+    $('video').on('canplay', function() {
+        $(this).muted = false;
+    });
+</script>
 <body>
     {include file="Common/header"/}
     <!-- banner -->
     <div class="swiper-container swiper-container-index">
         <div class="swiper-wrapper">
-            <div class="indexbanner minw swiper-slide"><img src="__index__/images/20190819110900.jpg"/></div>
-            <div class="indexbanner minw swiper-slide"><img src="__index__/images/20190819110900.jpg"/></div>
+            <div class="indexbanner minw swiper-slide"><img src="__index__/images/banner_competiton1.jpg"/></div>
+            <div class="indexbanner minw swiper-slide"><img src="__index__/images/banner_competiton2.jpg"/></div>
+            <div class="indexbanner minw swiper-slide"><img src="__index__/images/banner_competiton3.jpg"/></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination" id="bannerpagination"></div>
@@ -23,22 +31,22 @@
                 <li><a href="/competition/wer">WER</a></li>
                 <li><a href="/competition/zhjn">综合技能</a></li>
                 <li><a href="/competition/cys">机器人创意</a></li>
-                <li><a href="/competition/makex">MakeX</a></li>
+                <!-- <li><a href="/competition/makex">MakeX</a></li> -->
             </ul>
             <div class="am-tabs-bd am-form-group">
                 <div class="am-tab-panel am-active">
                     <div class="center tuijian_title am-margin-bottom-lg">
                         <h1>VEX工程挑战赛</h1>
+                        <video class="WeChatindex" width="640" height="480" onmouseover="play_v1(this)" controls autoplay muted>
+                            <source src="__index__/video/VRC2022.mp4" type="video/mp4">
+                        </video>
                     </div>
+                    <!-- <video controls autoplay  src="__index__/video/VRC2022.mp4"></video> -->
                     <div class="competition_content am-margin-bottom">
                         <div class="am-padding-vertical-sm clearfix center">
-                            <a href="https://www.bilibili.com/video/av52344397?from=search&seid=15152024664058006978" target="_blank">
-                                <img src="__index__/images/vex1.jpg"/>
-                                <p class="am-margin-top-sm">点击图片可查看视频介绍</p>
-                            </a>
                         </div>
                         <div class="am-margin-vertical-xs">
-                            VEX是全球规模最大，最受科技类大学认可的机器人比赛，也是中国青少年机器人竞赛中的重要项目。VEX要求参赛的队员自行设计、制作、编程并调试机器人，比赛不仅考察机器人的结构和传动的设计，更重要的是对机器的操控、比赛的策略及应变能力。比赛分手动赛和自动赛两部分，进行15秒的自动赛后，队员通过遥控器控制在特定的竞赛场地上，按照规则要求进行的比赛活动。VEX互动性强且具有激烈的对抗性，比赛过程也比较惊险刺激，是创意设计和对抗性比赛的最佳结合。
+                            VEX是全球规模最大，最受科技类大学认可的机器人比赛，也是中国青少年机器人竞赛中的重要项目。VEX要求参赛的队员自行设计、制作、编程并调试机器人，比赛不仅考察机器人的结构和传动的设计，更重要的是对机器的操控、比赛的策略及应变能力。比赛分为手动赛和自动赛两部分，在进行15秒的自动赛后，队员通过遥控器控制在特定赛场上的机器人，再按照规则要求进行手动赛。VEX互动性强且具有激烈的对抗性，比赛过程也比较惊险刺激，是创意设计和对抗性比赛的最佳结合。
                         </div>
                     </div>
                     <div class="center tuijian_title am-margin-bottom-lg title-img">
@@ -87,7 +95,7 @@
                                 </td>
                                 <td  class="center">
                                     <div>
-                                            每只队伍1台机器
+                                            每支队伍1台机器
                                     </div>
                                 </td>
                                 <td>
@@ -324,7 +332,7 @@
                                 </td>
                                 <td class="center">
                                     <div>
-                                        每只队伍需2台机器参赛
+                                        每支队伍需2台机器参赛
                                     </div>
                                 </td>
                                 <td>
@@ -358,22 +366,22 @@
                     </div>
                     <div class="row competition_bottom">
                         <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 am-u-xs-12">
-                            <img src="__index__/images/vex3.png" />
+                            <img src="__index__/images/vex11.jpg" />
                         </div>
                         <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 am-u-xs-12">
-                            <img src="__index__/images/vex9.jpg" />
+                            <img src="__index__/images/vex12.jpg" />
                         </div>
                         <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 am-u-xs-12">
-                            <img src="__index__/images/vex5.jpg" />
+                            <img src="__index__/images/vex13.jpg" />
                         </div>
                         <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 am-u-xs-12">
-                                <img src="__index__/images/image011.jpg" />
+                                <img src="__index__/images/vex21.jpg" />
                             </div>
                             <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 am-u-xs-12">
-                                <img src="__index__/images/image015.jpg" />
+                                <img src="__index__/images/vex22.jpg" />
                             </div>
                             <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 am-u-xs-12">
-                                <img src="__index__/images/image019.jpg" />
+                                <img src="__index__/images/vex23.jpg" />
                             </div>
                     </div>
                 </div>

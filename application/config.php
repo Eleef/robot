@@ -144,11 +144,11 @@ return [
 
     // 视图输出字符串内容替换
     'view_replace_str'       => [
-        '__index__'=>'/static/index',
-        '__admin__'=>'/static/admin',
-        '__upload__'=>'/upload',
-        '__ue__'=>'/static/ueditor',
-        '__layer__'=>'/static/layer'
+        '__index__'=>'/robot/public/static/index',
+        '__admin__'=>'/robot/public/static/admin',
+        '__upload__'=>'/robot/public/upload',
+        '__ue__'=>'/robot/public/static/ueditor',
+        '__layer__'=>'/robot/public/static/layer'
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',

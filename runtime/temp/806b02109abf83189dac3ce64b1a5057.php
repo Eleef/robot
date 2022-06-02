@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>后台管理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/static/admin/i/favicon.png">
-    <link rel="stylesheet" href="/static/admin/css/amazeui.min.css" />
-    <link rel="stylesheet" href="/static/admin/css/admin.css">
-    <link rel="stylesheet" href="/static/admin/css/app.css">
+    <link rel="icon" type="image/png" href="/robot/public/static/admin/i/favicon.png">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/robot/public/static/admin/css/admin.css">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/app.css">
   </head>
 
 <body data-type="generalComponents">
 	<header class="am-topbar am-topbar-inverse admin-header">
   <div class="am-topbar-brand">
     <a href="/" class="tpl-logo">
-      <img src="/static/index/images/logo.png" alt="">
+      <img src="/robot/public/static/index/images/logo.png" alt="">
     </a>
   </div>
   <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
@@ -124,9 +124,9 @@
 										<td>
 											<div class="pic">
 												<?php if($industry['image'] == null): ?>
-													<img src="/static/index/images/zw.png" />
+													<img src="/robot/public/static/index/images/zw.png" />
 												<?php else: ?>
-													<img src="/upload/<?php echo $industry['image']; ?>" />
+													<img src="/robot/public/upload/<?php echo $industry['image']; ?>" />
 												<?php endif; ?>
 											</div>
 											<?php echo mb_substr($industry['title'] ,0,60,'utf-8'); ?>
@@ -159,9 +159,9 @@
 			</div>
 		</div>
 	</div>
-	<script src="/static/admin/js/jquery.min.js"></script>
-	<script src="/static/admin/js/amazeui.min.js"></script>
-	<script src="/static/admin/js/app.js"></script>
+	<script src="/robot/public/static/admin/js/jquery.min.js"></script>
+	<script src="/robot/public/static/admin/js/amazeui.min.js"></script>
+	<script src="/robot/public/static/admin/js/app.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"C:\phpStudy\WWW\robot\public/../application/index\view\joinin\index.html";i:1576051680;s:63:"C:\phpStudy\WWW\robot\application\index\view\Common\header.html";i:1572830715;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"C:\phpStudy\WWW\robot\public/../application/index\view\joinin\index.html";i:1654149159;s:63:"C:\phpStudy\WWW\robot\application\index\view\Common\header.html";i:1572830715;}*/ ?>
 ﻿
 <!DOCTYPE html>
 <html lang="en">
@@ -10,9 +10,9 @@
   <meta name="keywords" content="机器人教育加盟,少儿编程加盟,乐高机器人教育加盟,海客机器人加盟,少儿机器人加盟,机器人课程加盟，机器人培训加盟,海客教育加盟条件,海客教育加盟费用">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="robots" content="noarchive">
-  <link rel="stylesheet" href="/static/index/css/base.css">
-    <link rel="stylesheet" href="/static/admin/css/amazeui.min.css">
-    <link rel="stylesheet" href="/static/index/css/style.css">
+  <link rel="stylesheet" href="/robot/public/static/index/css/base.css">
+    <link rel="stylesheet" href="/robot/public/static/admin/css/amazeui.min.css">
+    <link rel="stylesheet" href="/robot/public/static/index/css/style.css">
     <style>
     li{
         list-style:none;
@@ -24,7 +24,7 @@
 <div class="contentWidth navbar">
     <div>
         <a href="/">
-            <img src="/static/index/images/logo.png" />
+            <img src="/robot/public/static/index/images/logo.png" />
         </a>
     </div>
     <div class="nav_right">
@@ -40,22 +40,22 @@
     </div>
 </div>
   <div class="main">
-  <!-- <a href="/"><img src="/static/index/images/web/01.png" alt=""></a> -->
+  <!-- <a href="/"><img src="/robot/public/static/index/images/web/01.png" alt=""></a> -->
         <!-- <div class="conbox"></div> -->
         <div class="conbox">
-            <img src="/static/index/images/web/02.png" data-original="/static/index/images/web/02.png" alt="">
-            <img src="/static/index/images/web/03.png" data-original="/static/index/images/web/03.png" alt="">
-            <img src="/static/index/images/web/04.png" data-original="/static/index/images/web/04.png" alt="">
-            <img src="/static/index/images/web/05.png" data-original="/static/index/images/web/05.png" alt="">
-            <img src="/static/index/images/web/06.png" data-original="/static/index/images/web/06.png" alt="">
-            <img src="/static/index/images/web/07.png" data-original="/static/index/images/web/07.png" alt="">
-            <img src="/static/index/images/web/08.png" data-original="/static/index/images/web/08.png" alt="">
-            <img src="/static/index/images/web/09.png" data-original="/static/index/images/web/09.png" alt="">
-            <img src="/static/index/images/web/010.png" data-original="/static/index/images/web/010.png" alt="">
-            <img src="/static/index/images/web/011.png" data-original="/static/index/images/web/011.png" alt="">
-            <img src="/static/index/images/web/012.png" data-original="/static/index/images/web/012.png" alt="">
-            <img src="/static/index/images/web/013.png" data-original="/static/index/images/web/013.png" alt="">
-            <img src="/static/index/images/web/014.png" data-original="/static/index/images/web/014.png" alt="">
+            <img src="/robot/public/static/index/images/joinin.jpg" data-original="/robot/public/static/index/images/joinin.jpg" alt="">
+            <!-- <img src="/robot/public/static/index/images/web/03.png" data-original="/robot/public/static/index/images/web/03.png" alt="">
+            <img src="/robot/public/static/index/images/web/04.png" data-original="/robot/public/static/index/images/web/04.png" alt="">
+            <img src="/robot/public/static/index/images/web/05.png" data-original="/robot/public/static/index/images/web/05.png" alt="">
+            <img src="/robot/public/static/index/images/web/06.png" data-original="/robot/public/static/index/images/web/06.png" alt="">
+            <img src="/robot/public/static/index/images/web/07.png" data-original="/robot/public/static/index/images/web/07.png" alt="">
+            <img src="/robot/public/static/index/images/web/08.png" data-original="/robot/public/static/index/images/web/08.png" alt="">
+            <img src="/robot/public/static/index/images/web/09.png" data-original="/robot/public/static/index/images/web/09.png" alt="">
+            <img src="/robot/public/static/index/images/web/010.png" data-original="/robot/public/static/index/images/web/010.png" alt="">
+            <img src="/robot/public/static/index/images/web/011.png" data-original="/robot/public/static/index/images/web/011.png" alt="">
+            <img src="/robot/public/static/index/images/web/012.png" data-original="/robot/public/static/index/images/web/012.png" alt="">
+            <img src="/robot/public/static/index/images/web/013.png" data-original="/robot/public/static/index/images/web/013.png" alt="">
+            <img src="/robot/public/static/index/images/web/014.png" data-original="/robot/public/static/index/images/web/014.png" alt=""> -->
          </div>
    <div class="am-padding-topam-padding-0 contentWidth joininfrom">
         <form method="post" class="am-form am-form-about am-form-jo am-form-jo1" action="">
@@ -66,7 +66,7 @@
             <input type="hidden" name="user_email4" value="chensaihu@haihong108.onaliyun.com">
             <input type="hidden" name="user_email5" value="kuangwenjun@haihong108.onaliyun.com">
             <input type="hidden" name="user_email6" value="chensaihu@haihong108.onaliyun.com">
-            <img src="/static/index/images/atitle1.png" class="img">
+            <img src="/robot/public/static/index/images/atitle1.png" class="img">
 
             <fieldset class="f18">
                 <div class="am-u-lg-12 am-u-md-12 am-u-sm-12 am-u-xs-12 am-margin-bottom">
@@ -122,25 +122,25 @@ var _hmt = _hmt || [];
 </script>
 
 </body>
-<script src="/static/admin/js/jquery.min.js"></script>
-<script src="/static/index/js/rem.js"></script>
-<script src="/static/layer/layer.js" defer></script>
-<script src="/static/index/js/distpicker.data.js"></script>
-    <script src="/static/index/js/distpicker.js"></script>
+<script src="/robot/public/static/admin/js/jquery.min.js"></script>
+<script src="/robot/public/static/index/js/rem.js"></script>
+<script src="/robot/public/static/layer/layer.js" defer></script>
+<script src="/robot/public/static/index/js/distpicker.data.js"></script>
+    <script src="/robot/public/static/index/js/distpicker.js"></script>
 
 
 
 
-<script src="/static/index/js/ajax.js"></script>
-<script src="/static/index/js/public.js" defer></script>
+<script src="/robot/public/static/index/js/ajax.js"></script>
+<script src="/robot/public/static/index/js/public.js" defer></script>
 
-<script src="/static/admin/js/amazeui.min.js" defer></script>
+<script src="/robot/public/static/admin/js/amazeui.min.js" defer></script>
 
-<script src="/static/index/js/jquery.lazyload.min.js" defer></script>
+<script src="/robot/public/static/index/js/jquery.lazyload.min.js" defer></script>
 <script>
     
 // <img class="lazy" src="grey.gif" data-original="example.jpg" width="640" heigh="480">
-// <img src=/static/index/images/web/0'+i+'.png alt="">
+// <img src=/robot/public/static/index/images/web/0'+i+'.png alt="">
 jQuery(document).ready(function ($) {
 
     
@@ -211,7 +211,7 @@ jQuery(document).ready(function ($) {
 
 // -------------------导航部分-------------------
 $.ajax({
-    url: "/static/index/js/navjson.json",
+    url: "/robot/public/static/index/js/navjson.json",
     type: "POST",
     data: "",
     async: false,
@@ -242,6 +242,6 @@ $.ajax({
     }
 });
 </script>
- <script src="/static/index/js/title.js" defer></script>
+ <script src="/robot/public/static/index/js/title.js" defer></script>
 <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/0551b9cd96157683e59dee0287e02be62/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
 </html>
