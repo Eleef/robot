@@ -6,12 +6,14 @@ class News extends Controller
     public function index()
     { 
         // 列表
-        $r = db('industry')->count()-2;
+        $r = db('industry')->count()+1;
         $industry = db('industry')->where('id','<',$r)->order("id desc")->paginate(7);
         $this->assign([
             'industry'=>$industry
         ]);
         
+
+
         $page = $industry->render();
         $this->assign('page', $page);
 
@@ -31,7 +33,7 @@ class News extends Controller
     
     public function industry()
     { // 列表
-        $r = db('indus')->count()-2;
+        $r = db('indus')->count()+1;
 
         $industry = db('indus')->where('id','<',$r)->order("id desc")->paginate(7);
         $this->assign([
@@ -52,3 +54,4 @@ class News extends Controller
         return $this->fetch('indusarticle');
     }
 }
+

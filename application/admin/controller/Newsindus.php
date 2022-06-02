@@ -70,7 +70,7 @@ class Newsindus extends Basic
                 'id'=>input('id'),
                 'title'=>input('title'),
                 'content'=>input('content'),
-                // 'description'=>input('description'),
+                'description'=>input('description'),
                 'image'=>input('image')
             ];
             $img = input('img');
