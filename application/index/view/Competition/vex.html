@@ -4,9 +4,11 @@
 <script>
     function play_v1(v){
         v.muted=false;
+        // v.play();
     }
     $('video').on('canplay', function() {
         $(this).muted = false;
+        // v.play();
     });
 </script>
 <body>
@@ -37,10 +39,25 @@
                 <div class="am-tab-panel am-active">
                     <div class="center tuijian_title am-margin-bottom-lg">
                         <h1>VEX工程挑战赛</h1>
-                        <video class="WeChatindex" width="640" height="480" onmouseover="play_v1(this)" controls autoplay muted>
+                        <!-- <video class="WeChatindex" width="640" height="480" onmouseover="play_v1(this)" controls autoplay muted>
                             <source src="__index__/video/VRC2022.mp4" type="video/mp4">
-                        </video>
+                        </video> -->
                     </div>
+                    <video controls="controls"
+                        src="__index__/video/VRC2022.mp4"
+                        id="web03"
+                        autoplay="autoplay"
+                        muted
+                        preload="metadata"
+                        playsinline="true"
+                        webkit-playsinline="true"
+                        x-webkit-airplay="true"
+                        x5-video-orientation="portraint"
+                        x5-video-player-fullscreen="true" width="100%" 
+                        onmouseover="play_v1(this)"
+                        muted
+                       >
+                    </video>
                     <!-- <video controls autoplay  src="__index__/video/VRC2022.mp4"></video> -->
                     <div class="competition_content am-margin-bottom">
                         <div class="am-padding-vertical-sm clearfix center">
@@ -392,5 +409,27 @@
     {include file="Common/layerbox"/}
     {include file="Common/footer"/}
 </body>
+<!-- <script>
+    window.onload=function (ev) {
+        var video = document.getElementById("web03");
+        document.addEventListener(
+            'WeixinJSBridgeReady',
+            function () {
+                video.play();
+                video.pause();
+                video.muted = false;
+                video.play();
+                video.muted = false;
+                
+            },
+            false
+        );
+        // document.addEventListener('touchstart', function () {
+        //     video.play();
+        //     video.pause();
+        //     video.play();
+        // }, false);
+    }
+</script> -->
 
 </html>

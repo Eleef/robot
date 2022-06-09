@@ -1,0 +1,106 @@
+/*版心*/
+*{
+	padding:0;
+	margin:0
+}
+.bottomtext {
+	line-height: 26px;
+	margin: 10px 0 40px 0;
+	font-size: 16px
+}
+
+.container{
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+body {
+	margin:0;
+	padding: 0;
+}
+
+
+.joininl {
+	padding: 13% .2rem 2rem .2rem;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	z-index: 9;
+	display: none
+}
+
+.joininl .bgf {
+	width: 752px;
+	margin: 0 auto
+}
+.bottomtext{line-height:.36rem;margin-bottom:.2rem;font-size:.2rem;font-size:14px;text-align:center}
+.bottomtext p{margin:0}
+.am-form-jo {
+	border: 3px solid #1611a9;
+	margin: 5%;
+	padding: 5% 1% 1% 1%;
+	border-radius: 7px;
+	position: relative;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:14px;
+}
+
+.am-form-jo .am-margin-top-xs {
+	margin-top:.2rem
+}
+.am-form-jo .but{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.am-form-jo .img {
+	width: 70%;
+	position: absolute;
+	top: -.75rem;
+	left: 50%;
+	margin-left: -35%
+}
+.am-form-jo .am-u-xs-3{width:24%;line-height: 1.2;padding:.5em 0 !important;}
+.am-form-jo .am-u-xs-9{width:76%}
+.joininfrom {
+	padding: 0
+}
+
+.form-group {
+	margin-right: 10px
+}
+
+.joininsel {
+	display: flex
+}
+
+.joininsel>div {
+	width: 49%
+}
+
+#joinin,#joininlay {
+	background: #16306b;
+	color: #ffd701;
+	border-radius: 50px;
+	font-size: 16px;
+	padding: .5rem 2.5rem;
+
+}
+
+
+.bottomtext {
+	line-height: 26px;
+	margin: 10px 0 40px 0;
+	font-size: 16px
+}

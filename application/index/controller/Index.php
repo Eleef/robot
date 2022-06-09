@@ -36,7 +36,7 @@ class Index extends Controller
         ]);
 
       $html = $this->fetch('index');
-      file_put_contents('./index.html',$html);
+    //   file_put_contents('./index.html',$html);
       return $this->fetch('index');
     }
         //轮播

@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+*{
+	padding:0;
+	margin:0
+}
+.main {
+	width: 100%;
+	height: auto;
+	
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.bottomtext {
+       line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    background: #fff;
+	padding:20px 0
+	}
+	
+	
+	
+	
+.joininl {
+	padding: 13% .2rem 2rem .2rem;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	z-index: 9;
+	display: none
+}
+
+.joininl .bgf {
+	width: 752px;
+	margin: 0 auto
+}
+
+.am-form-jo {
+	border: 3px solid #1611a9;
+	padding: 50px 0 20px 0;
+	border-radius: 7px;
+	position: relative;
+	width: 606px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.am-form-jo .am-margin-top-xs {
+	margin-top: .2rem
+}
+
+.am-form-jo .img {
+	width: 26rem;
+	position: absolute;
+	top: -1rem;
+	left: 50%;
+	margin-left: -13rem
+}
+
+.am-form-jo .but{
+	display:flex;
+	justify-content: center;
+}
+.joininsel {
+	display: flex
+}
+.layui-layer-msg{top:60% !important}
+.joininsel>div {
+	width: 49%
+}
+.joininsel>div:nth-child(2){margin-left:10px;float:right;}
+#joinin,#joininlay {
+	background: #16306b;
+	color: #ffd701;
+	border-radius: 50px;
+	font-size: 22px;
+	padding: .5rem 2.5rem
+}
+
+.joininfrom {
+	padding: 50px 270px 0 270px;
+	background:#fff
+}

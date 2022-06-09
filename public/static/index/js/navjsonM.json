@@ -1,0 +1,37 @@
+{
+    "success": true,
+    "status": 200,
+    "nav": [{
+      "title": "首页",
+      "href":"/mobile"
+    },{
+        "title": "课程介绍",
+        "href":"/mobile/introduce"
+    },{
+        "title": "机器人竞赛",
+        "href":"/mobile/competition"
+    },{
+        "title": "产品介绍",
+        "href":"/mobile/product"
+    },{
+        "title": "招商加盟","href":"/mobile/joinin"
+    },{
+        "title": "新闻资讯","href":"/mobile/news"
+    },{
+        "title": "教学成果","href":"/mobile/achievements"
+    },{
+        "title": "关于我们","href":"/mobile/about"
+    }]
+}
+
+
+
+
+
+
+
+
+
+
+  
+  

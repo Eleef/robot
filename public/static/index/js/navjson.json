@@ -1,0 +1,67 @@
+{
+    "success": true,
+    "status": 200,
+    "nav": [{
+      "title": "首页",
+      "href":"/",
+      "children":[]
+    },{
+        "title": "课程介绍",
+        "href":"/introduce",
+        "children":[{
+            "title":"MEI","href":"/introduce"
+        },{
+            "title":"SPN课程","href":"/introduce"
+        },{
+            "title":"竞赛课程","href":"/introduce"
+        },{
+            "title":"幼儿课程","href":"/introduce"
+        }]
+    },{
+        "title": "产品介绍",
+        "href":"/product",
+        "children":[]
+    },{
+        "title": "机器人竞赛",
+        "href":"/competition",
+        "children":[{
+            "title":"VEX","href":"/competition/vex"
+        },{
+            "title":"WER","href":"/competition/wer"
+        },{
+            "title":"综合技能","href":"/competition/zhjn"
+        },{
+            "title":"创意赛","href":"/competition/cys"
+        }]
+    },{
+        "title": "招商加盟","href":"/joinin"
+    },{
+        "title": "新闻资讯","href":"/news",
+        "children":[{
+            "title":"行业资讯",
+            "href":"/news/industry"
+        },{
+            "title":"公司资讯",
+            "href":"/news"
+        }]
+    },{
+        "title": "教学成果","href":"/Achievements",
+        "children":[{
+            "title":"案例展示","href":"/Achievements"
+        }]
+    },{
+        "title": "关于我们","href":"/about"
+    }]
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
